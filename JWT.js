@@ -1,3 +1,3 @@
-export default function getPayload (token) { 
-  JSON.parse(atob(token.split('.')[1])) 
+export default function (token) {
+  return JSON.parse(atob(token.split('.')[1]))
 }

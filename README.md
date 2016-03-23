@@ -6,7 +6,13 @@ https://jwt.io/
 
 ---
 
-## Example usage
+## Installation
+
+```bash
+$ npm install jwt-payload-decoder --save
+```
+
+## Usage
 
 First, [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) the function:
 

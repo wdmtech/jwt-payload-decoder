@@ -1,0 +1,30 @@
+{
+  "name": "jwt-payload-decoder",
+  "version": "1.0.0",
+  "description": "A simple, exportable function for getting the payload from a [JWT](https://jwt.io/) (JSON Web Token).",
+  "main": "JWT.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdmtech/jwt-payload-decoder.git"
+  },
+  "keywords": [
+    "JWT",
+    "json",
+    "web",
+    "token",
+    "payload",
+    "decode",
+    "base64",
+    "javascript",
+    "js"
+  ],
+  "author": "Will Murray (wdmtech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdmtech/jwt-payload-decoder/issues"
+  },
+  "homepage": "https://github.com/wdmtech/jwt-payload-decoder#readme"
+}

@@ -12,6 +12,8 @@ https://jwt.io/
 $ npm install jwt-payload-decoder --save
 ```
 
+---
+
 ## Usage
 
 Require the package in your application:

@@ -2,7 +2,7 @@
   "name": "jwt-payload-decoder",
   "version": "1.0.0",
   "description": "A simple, exportable function for getting the payload from a [JWT](https://jwt.io/) (JSON Web Token).",
-  "main": "JWT.js",
+  "main": "libs/JWT.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,6 +1,6 @@
 {
   "name": "jwt-payload-decoder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple, exportable function for getting the payload from a [JWT](https://jwt.io/) (JSON Web Token).",
   "main": "libs/JWT.js",
   "scripts": {

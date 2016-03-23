@@ -13,7 +13,7 @@ Then get the payload like so:
 
 ```js
 var payload = JWT.getPayload(token)
-localStorage.setItem('id_token', token)
+
 self.user.authenticated = true
 self.user.email = payload.email
 self.user.name = payload.name

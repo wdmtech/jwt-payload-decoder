@@ -1,12 +1,8 @@
 # jwt-payload-decoder
 
-A simple, exportable function for getting the payload from a [JWT](https://jwt.io/) (JSON Web Token).
+A simple, exportable function for getting the payload from a JWT (JSON Web Token).
 
----
-
-## Explanation
-
-`JWT -> Split by . delimiter -> Get position 1 of array (encoded payload) -> Base64 decode -> JSON parse`
+https://jwt.io/
 
 ---
 
@@ -26,17 +22,6 @@ var payload = jwtPayloadDecoder.getPayload(token)
 var user = {
   email: payload.email,
   name: payload.name
-}
-```
----
-
-## Basic usage
-
-You could also use the function by itself if required:
-
-```js
-function getPayload (token) {
-  return JSON.parse(atob(token.split('.')[1]))
 }
 ```
 ---

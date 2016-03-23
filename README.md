@@ -9,7 +9,7 @@ First, import the function:
 import JWT from '../vue/JWT'
 ```
 
-Then get the payload, as follows:
+Then get the payload:
 
 ```js
 var payload = JWT.getPayload(token)

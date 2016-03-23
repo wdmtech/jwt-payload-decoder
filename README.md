@@ -15,13 +15,13 @@ A simple exportable function for getting the payload from a [JWT](https://jwt.io
 First, import the function:
 
 ```js
-import JWT from '../vue/JWT'
+import getPayload from '../vue/JWT'
 ```
 
 Then get the payload:
 
 ```js
-var payload = JWT.getPayload(token)
+var payload = getPayload(token)
 
 var user = {
   email: payload.email,

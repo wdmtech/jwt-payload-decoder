@@ -6,7 +6,7 @@ A simple exportable function for getting the payload from a [JWT](https://jwt.io
 
 ## Explanation
 
-> JWT -> Split by . -> Get position 1 of array (encoded payload) -> Base64 decode -> JSON parse
+JWT -> Split by . -> Get position 1 of array (encoded payload) -> Base64 decode -> JSON parse
 
 ---
 

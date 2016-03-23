@@ -15,6 +15,7 @@ Then get the payload like so:
 var payload = JWT.getPayload(token)
 
 var user
+
 user.authenticated = true
 user.email = payload.email
 user.name = payload.name

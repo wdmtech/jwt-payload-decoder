@@ -1,5 +1,5 @@
 # jwt-payload-decoder
-A simple function for getting the payload from a JWT (JSON Web Token)
+A simple function for getting the payload from a [JWT](https://jwt.io/) (JSON Web Token)
 
 ## Example usage
 

@@ -18,7 +18,7 @@ First, import the function:
 import getPayload from '../vue/JWT'
 ```
 
-Then get the payload:
+Then get the payload like so:
 
 ```js
 var payload = getPayload(token)

@@ -29,3 +29,13 @@ var user = {
 }
 ```
 ---
+
+## Basic usage
+
+You could also use the function by itself if required:
+
+```js
+function getPayload (token) {
+  return JSON.parse(atob(token.split('.')[1]))
+}
+```
